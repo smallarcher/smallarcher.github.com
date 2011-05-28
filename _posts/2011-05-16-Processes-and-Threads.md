@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android笔记: Processes and Threads
+title: Android笔记--Processes and Threads
 category: android
 ---
 
