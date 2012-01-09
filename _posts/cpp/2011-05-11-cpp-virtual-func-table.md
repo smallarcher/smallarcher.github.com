@@ -38,10 +38,13 @@ category: cpp
     };
 
     typedef void (*Func)(void);
-    先上代码，1个基类，3个类继承它，并以不同的特色重写基类的函数，然后定义了相应的函数指针。
+{% endhighlight %}
 
-    先用段代码研究Base的结构：
+先上代码，1个基类，3个类继承它，并以不同的特色重写基类的函数，然后定义了相应的函数指针。
 
+先用段代码研究Base的结构：
+
+{% highlight cpp %}
     void BaseStruct()
     {
         Base base;
