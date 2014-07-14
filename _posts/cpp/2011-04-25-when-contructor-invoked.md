@@ -4,7 +4,7 @@ title: 究竟什么时候构造函数被调用
 category: cpp
 ---
 
-{% highlight java %}
+{% highlight cpp %}
 
     #include <stdio.h>
     #include <iostream>
@@ -56,7 +56,6 @@ category: cpp
     }
 
 {% endhighlight %}
-
 构造函数是有关如何建立起给定类型的一个值的地方。当程序里需要一个某类型的值，而某个构造函数又能通过把所提供的值作为初始式或者被赋值的值，去创建一个这样的值的时候，这个构造函数就会被调用。因此，具有一个参数的构造函数也可能不需要现实地调用。
 
 complex b = 3; 的意思是 complex b = complex(3);
