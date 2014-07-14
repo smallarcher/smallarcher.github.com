@@ -3,6 +3,7 @@ layout: post
 title: 究竟什么时候构造函数被调用
 category: cpp
 ---
+
 {% highlight java %}
 
     #include <stdio.h>
